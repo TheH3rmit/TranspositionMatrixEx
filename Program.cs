@@ -14,6 +14,14 @@
                 int numberOfRows = m;
                 int numberOfColumns = n;
                 int[,] macierz = new int[numberOfRows, numberOfColumns];
+                for(int k = 0; k < numberOfRows; k++)
+                {
+                    for(int l =0; l < numberOfColumns; l++)
+                    {
+                        macierz[k,l] = random.Next(1, 101);
+                    }
+                }
+
                 for (int i = 0; i < numberOfRows; i++)
                 { 
                     for(int j = 0; j < numberOfColumns; j++)
