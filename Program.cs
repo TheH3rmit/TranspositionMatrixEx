@@ -5,7 +5,7 @@
         static void Main()
         {
             Random random = new Random();
-            Console.WriteLine("Write number of columns of matrix");
+            Console.WriteLine("Write number of rows of matrix");
             Int32.TryParse(Console.ReadLine(), out int m);
             Console.WriteLine("Write number of columns of matrix");
             Int32.TryParse(Console.ReadLine(), out int n);
